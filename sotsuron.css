@@ -29,7 +29,11 @@ h1 small {
   padding: 3em 0;
 }
 
-.remain {
+.startline {
+  padding: 1em 0;
+}
+
+.time {
   font-size: 150%;
 }
 
@@ -49,6 +53,10 @@ h1 small {
 
 .github span {
   display: none;
+}
+
+.concealed {
+  color: #eee;
 }
 
 @media screen and (max-width: 768px){
