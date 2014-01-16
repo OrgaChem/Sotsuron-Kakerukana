@@ -2,7 +2,7 @@
 var name = '(~♥~)';
 
 // 進捗状況(0〜100)
-var progress = 95;
+var progress = 100;
 
 // 修論〆切
 var deadline = '2014/1/17 9:00';
