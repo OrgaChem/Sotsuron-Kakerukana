@@ -5,7 +5,7 @@ var name = '(~♥~)';
 var progress = 80;
 
 // 修論〆切
-var deadline = '2014/1/27 9:00';
+var deadline = '2014/1/27 16:30';
 
 // 研究室配属日
 var startline = '2012/4/1 9:00';
