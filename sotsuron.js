@@ -24,8 +24,14 @@ $(function(){
     var startlineMsec = new Date(startline).getTime();
     var remainingTime = Math.floor((deadlineMsec - now) / 1000);
     var timeIsMoney = Math.floor((now - startlineMsec) / 1000);
-    remain.text(elapsedToString(remainingTime));
-    erapsed.text(elapsedToString(timeIsMoney));
+    if (remainingTime >= 0) {
+      remain.text(elapsedToString(remainingTime));
+      erapsed.text(elapsedToString(timeIsMoney));
+    }
+    else {
+      remain.text(elapsedToString(0));
+      erapsed.text(elapsedToString(0));
+    }
   }
 
   setInterval(update, 1000);
